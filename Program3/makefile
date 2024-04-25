@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS = -Wall -pthread
 
-SRCS = HTTP_Server.c HTTP_Client.c
+SRCS = Finding_Time.c
 OBJS = $(SRCS:.c=.o)
-TARGET = HTTP_Server HTTP_Client
+TARGET = Finding_Time
 
 all: $(TARGET)
 
